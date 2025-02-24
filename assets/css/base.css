@@ -1,6 +1,6 @@
 :root {
-    --white--color: #fff;
-    --blanck--color: #000;
+    --white-color: #fff;
+    --blanck-color: #000;
     --text-color: #333;
 }
 
@@ -15,7 +15,7 @@ html {
     box-sizing: border-box;
 }
 
-.gird {
+.griid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
@@ -25,7 +25,7 @@ html {
     width: 100%;
 }
 
-.gird__row {
+.grid__row {
     display: flex;
     flex-wrap: wrap;
 }
