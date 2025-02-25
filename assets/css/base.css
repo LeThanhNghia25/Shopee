@@ -1,6 +1,6 @@
 :root {
     --white-color: #fff;
-    --blanck-color: #000;
+    --black-color: #000;
     --text-color: #333;
 }
 
@@ -15,7 +15,7 @@ html {
     box-sizing: border-box;
 }
 
-.griid {
+.grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
