@@ -21,6 +21,10 @@
     min-height: 26px;
 }
 
+.header__navbar-item--has-qr:hover .header__qr {
+    display: block;
+}
+
 .header__navbar-icon-link {
     color: var(--white-color);
     text-decoration: none;
@@ -73,3 +77,41 @@
     cursor: text;
     color: var(--white-color);
 }
+
+.header__qr {
+    width: 186px;
+    background-color: var(--white-color);
+    position: absolute;
+    left: 0;
+    top: 120%;
+    padding: 8px;
+    border-radius: 2px;
+    display: none;
+}
+
+.header__qr::before {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    top: -16px;
+    content: "";
+    display: block;
+}
+
+.header__qr-img {
+    width: 100%;
+}
+
+.header__qr-apps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cột, mỗi cột chiếm 50% */
+    justify-content: space-between;
+}
+
+.header__qr-download-img {
+    max-width: 100%;
+    height: 18px; /* Điều chỉnh kích thước phù hợp */
+}
+
+
